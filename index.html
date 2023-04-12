@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<style>
+    body{
+          background-image: url("./image/bg\ body2.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+   background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    .pic img{
+        height: 100px;
+    }
+     .hello{
+        font-size: 40px;
+    }
+    .name{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .about{
+        font-size: 30px;
+        font-weight:700;
+    }
+    .moreabout{
+        font-size: 20px;
+    }
+
+
+
+    
+</style>
+<body>
+    <div class="container">
+        <div class="sidebar">
+        
+            <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a> </li> 
+                <!--<li><a href="services.html">Services</a></li> -->
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div> 
+        <div class="main">
+           <div class="info">
+                <div class="devinfo">
+                    <div class="hello"> Hii.. i am </div>
+                    <div class="name"> Utpanna Pradhan</div><br>
+
+                 <!--  <div class="about">frontend Developer ,Coder,<br> Freelancer, Learner</div>-->
+                
+                 <span class="auto-type" style="font-size: 30px; font-weight:bolder;color: rgb(253, 125, 5);"></span>
+                    <div class="moreabout" style="font-weight: 900;"> Love to code and  explore </div>
+                    <div class="buttons"> 
+                        <a href="./image/my cv.jpg" Download="test_image">
+                            <button type="button"> Download CV </button>
+                        </a>
+                      
+                        <a href="contact.html"><button style="margin-left: 20px;" >Contact me</button></a>
+                    </div>
+                    
+                </div>
+             
+               <!-- <div class="pic"><img src="./image/pic.png" alt="jina"></div>-->
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type" , {
+            strings:["Frontend Developer  , <br>coder ,  Freelancer  ,  Learner"],
+            typeSpeed:70,
+            backSpeed:70,
+            loop:true
+        });
+    </script>
+</body>
+</html>
